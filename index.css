@@ -1,0 +1,139 @@
+          /* HEAD STYLINGS */
+          body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-link {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .nav-link:hover {
+            color: #D5CABD;
+            background-color:rgb(232, 53, 53);
+        }
+        
+        .navbar-brand{
+            cursor: pointer;
+            color: #fff;
+            font-weight: 800;
+            font-size: 1.25rem;
+            text-decoration: none;}
+          /* ABOUT SECTION */
+           .about img{
+            border-radius: 10px;
+            box-shadow: 20px 2px 13px -8px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 20px 2px 13px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 20px 2px 13px -8px rgba(0,0,0,0.75);
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .progress {
+            width: 100%;
+            height: 25px;
+            background-color: rgb(201, 205, 205);
+            border-radius: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+        
+        }
+        
+        .pro-value1 {
+            animation: load1 3s normal forwards;
+            width: 0;
+            background-color: #191a1a;
+            border-radius: 50px;
+            height: 25px;
+        }
+        .pro-value2 {
+            animation: load2 3s normal forwards;
+            width: 0;
+            background-color: #191a1a;
+            border-radius: 50px;
+            height: 25px;
+        }
+        
+        .pro-value3 {
+            animation: load3 3s normal forwards;
+            width: 0;
+            background-color : #191a1a;
+            border-radius: 50px;
+            height: 25px;
+        }
+        
+        .pro-value4 {
+            animation: load4 3s normal forwards;
+            width: 0;
+            background-color: #191a1a;
+            border-radius: 50px;
+            height: 25px;
+        }
+        
+        
+        .progress p{
+            color: #fff;
+            padding: 3px;
+            white-space: nowrap;
+        }
+        @keyframes load1{
+            0%{
+                width: 0;
+            }
+        
+            100%{
+                width: 88%;
+            }
+        }
+        @keyframes load2{
+            0%{
+                width: 0;
+            }
+        
+            100%{
+                width: 83%;
+            }
+        }
+        @keyframes load3{
+            0%{
+                width: 0;
+            }
+        
+            100%{
+                width: 51%;
+            }
+        }
+        @keyframes load4{
+            0%{
+                width: 0;
+            }
+        
+            100%{
+                width: 77%;
+            }
+        }
+        
+        .btn2 ,.btn3{
+        width: 150px;
+        height: 35px;
+        background-color:  #191a1a;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        }
+        
+        .btn2:hover{
+            background-color: rgb(232, 53, 53);
+        }
+        .btn3:hover{
+            background-color:rgb(232, 53, 53);
+        }
